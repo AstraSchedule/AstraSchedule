@@ -1,0 +1,15 @@
+# Local agent/tool state
+.codegraph/*
+!.codegraph/.gitignore
+.playwright-mcp/
+.mimocode/node_modules/
+docs/
+
+# Build and runtime artifacts
+*.exe
+*.zip
+*.log
+
+# Dependencies and build outputs
+node_modules/
+dist/
