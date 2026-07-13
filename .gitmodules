@@ -1,0 +1,27 @@
+[submodule "desktop"]
+	path = desktop
+	url = git@github.com:AstraSchedule/desktop.git
+[submodule "docs-site"]
+	path = docs-site
+	url = git@github.com:AstraSchedule/docs-site.git
+[submodule "go-valence-cal"]
+	path = go-valence-cal
+	url = git@github.com:daizihan233/go-valence-cal.git
+[submodule "reg-go"]
+	path = reg-go
+	url = git@github.com:AstraSchedule/reg-go.git
+[submodule "reg-to"]
+	path = reg-to
+	url = git@github.com:AstraSchedule/reg-to.git
+[submodule "sys-backend"]
+	path = sys-backend
+	url = git@github.com:AstraSchedule/sys-backend.git
+[submodule "sys-dashboard"]
+	path = sys-dashboard
+	url = git@github.com:AstraSchedule/sys-dashboard.git
+[submodule "usr-backend"]
+	path = usr-backend
+	url = git@github.com:AstraSchedule/usr-backend.git
+[submodule "usr-dashboard"]
+	path = usr-dashboard
+	url = git@github.com:AstraSchedule/usr-dashboard.git
