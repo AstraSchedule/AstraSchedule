@@ -1,36 +1,36 @@
 [submodule "desktop"]
 	path = desktop
-	url = git@github.com:AstraSchedule/desktop.git
+	url = https://github.com/AstraSchedule/desktop.git
 	branch = main
 [submodule "docs-site"]
 	path = docs-site
-	url = git@github.com:AstraSchedule/docs-site.git
+	url = https://github.com/AstraSchedule/docs-site.git
 	branch = main
 [submodule "go-valence-cal"]
 	path = go-valence-cal
-	url = git@github.com:daizihan233/go-valence-cal.git
+	url = https://github.com/daizihan233/go-valence-cal.git
 	branch = main
 [submodule "reg-go"]
 	path = reg-go
-	url = git@github.com:AstraSchedule/reg-go.git
+	url = https://github.com/AstraSchedule/reg-go.git
 	branch = main
 [submodule "reg-to"]
 	path = reg-to
-	url = git@github.com:AstraSchedule/reg-to.git
+	url = https://github.com/AstraSchedule/reg-to.git
 	branch = main
 [submodule "sys-backend"]
 	path = sys-backend
-	url = git@github.com:AstraSchedule/sys-backend.git
+	url = https://github.com/AstraSchedule/sys-backend.git
 	branch = main
 [submodule "sys-dashboard"]
 	path = sys-dashboard
-	url = git@github.com:AstraSchedule/sys-dashboard.git
+	url = https://github.com/AstraSchedule/sys-dashboard.git
 	branch = main
 [submodule "usr-backend"]
 	path = usr-backend
-	url = git@github.com:AstraSchedule/usr-backend.git
+	url = https://github.com/AstraSchedule/usr-backend.git
 	branch = main
 [submodule "usr-dashboard"]
 	path = usr-dashboard
-	url = git@github.com:AstraSchedule/usr-dashboard.git
+	url = https://github.com/AstraSchedule/usr-dashboard.git
 	branch = main
