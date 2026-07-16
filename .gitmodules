@@ -34,3 +34,6 @@
 	path = usr-dashboard
 	url = git@github.com:AstraSchedule/usr-dashboard.git
 	branch = main
+[submodule "asplugin-example"]
+	path = asplugin-example
+	url = git@github.com:AstraSchedule/asplugin-example.git
