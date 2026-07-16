@@ -1,0 +1,29 @@
+name: Update Submodules
+
+on:
+  schedule:
+    - cron: '0 0 * * *'  # UTC 00:00:00 每天
+  workflow_dispatch:       # 支持手动触发
+
+jobs:
+  update-submodules:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          submodules: false
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Update submodules
+        run: |
+          git submodule update --init --remote --merge
+          git diff --quiet && echo "NO_CHANGES=true" >> "$GITHUB_ENV" || true
+
+      - name: Commit and push
+        if: env.NO_CHANGES != 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "🔄 ci: 自动更新 submodule 到最新提交"
+          git push
