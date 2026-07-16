@@ -14,6 +14,10 @@ jobs:
           submodules: false
           token: ${{ secrets.GITHUB_TOKEN }}
 
+      - name: Override submodule URLs to HTTPS
+        run: |
+          git config --local url."https://github.com/".insteadOf "git@github.com:"
+
       - name: Update submodules
         run: |
           git submodule update --init --remote --merge
